@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <header className="flex">
-        <NavLink to="/list" className="font-bold hover:text-red-500 p-5">리스트</NavLink>
-        <NavLink to="/write" className="font-bold hover:text-red-500 p-5">작성</NavLink>
+        <NavLink to="/list" className="font-bold hover:text-red-500 p-3">리스트</NavLink>
+        <NavLink to="/write" className="font-bold hover:text-red-500 p-3">작성</NavLink>
       </header>
       <Routes>
         <Route path="/list" element={<ListPage/>}/>
