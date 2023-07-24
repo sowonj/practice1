@@ -5,9 +5,9 @@ import WritePage from "./pages/WritePage";
 function App() {
   return (
     <>
-      <header>
-        <NavLink to="/list">리스트</NavLink>
-        <NavLink to="/write">작성</NavLink>
+      <header className="flex">
+        <NavLink to="/list" className="font-bold hover:text-red-500 p-5">리스트</NavLink>
+        <NavLink to="/write" className="font-bold hover:text-red-500 p-5">작성</NavLink>
       </header>
       <Routes>
         <Route path="/list" element={<ListPage/>}/>
