@@ -1,6 +1,12 @@
+import ListPage from "./pages/ListPage";
+import WritePage from "./pages/WritePage";
+
 function App() {
   return (
-    <div className="App">안녕하세요!!</div>
+    <>
+      <ListPage />
+      <WritePage />
+    </>
   );
 }
 
